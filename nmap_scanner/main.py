@@ -9,7 +9,7 @@ class NmapScanner(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("简易Nmap扫描器")
-        self.setGeometry(800, 500, 1000, 1000)  # 设置窗口大小和位置:
+        self.setGeometry(800, 800, 1000, 1000)  # 设置窗口大小和位置:
         self.setWindowIcon(QIcon("resources/logo.ico"))  # 可选
         self.setStyleSheet("""
             QWidget {
