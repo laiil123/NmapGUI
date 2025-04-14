@@ -91,5 +91,5 @@ NmapGUI/nmap_scanner/
 
 ### 📮 作者
 
-**南邮信安Czech** – 信息安全本科 / 安全开发方向  
-GitHub: [@laiil123](https://github.com/laiil123)
+**laiil123** – 信息安全本科 / 安全开发方向  
+GitHub: [@yourname](https://github.com/laiil123)
