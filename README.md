@@ -2,7 +2,8 @@
 
 一个基于 Python 和 PyQt5 的图形化网络扫描工具，具备 IP 段扫描、端口扫描、操作系统识别、服务识别、进度条、动画提示、多线程加速、导出结果等完整功能。
 
-![image](https://github.com/user-attachments/assets/e4331f2b-1c8e-4be1-b704-9ad9e2a22980)
+![image](https://github.com/user-attachments/assets/e758efa4-0597-4b50-81eb-003122329ac7)
+
 
 
 ---
@@ -42,13 +43,14 @@ pip install pyqt5 ping3
 1. 克隆项目：
 
 ```bash
-git clone https://github.com/laiil/NmapGUI.git
+git clone https://github.com/laiil123/NmapGUI.git
 cd NmapGUI
 ```
 
 2. 运行主程序：
 
 ```bash
+cd nmap_scanner
 python main.py
 ```
 
@@ -59,7 +61,7 @@ python main.py
 ### 📁 项目结构
 
 ```
-gui-nmap-scanner/
+NmapGUI/nmap_scanner/
 ├── main.py              # GUI 主界面
 ├── scanner.py           # 核心扫描逻辑
 ├── resources
@@ -89,5 +91,5 @@ gui-nmap-scanner/
 
 ### 📮 作者
 
-**Your Name** – 信息安全本科 / 安全开发方向  
+**laiil123** – 信息安全本科 / 安全开发方向  
 GitHub: [@yourname](https://github.com/laiil123)
