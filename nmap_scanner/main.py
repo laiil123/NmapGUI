@@ -81,7 +81,7 @@ class NmapScanner(QWidget):
         # 动态 loading 动画
         self.loading = QLabel()
         self.loading.setAlignment(Qt.AlignCenter)
-        self.loading_movie = QMovie("resources/loading2.gif")
+        self.loading_movie = QMovie("resources/loading3.gif")
         self.loading.setMovie(self.loading_movie)
         self.loading.setFixedSize(60, 60)  # 设置GIF动画的尺寸为60x60像素
         self.loading_movie.setCacheMode(QMovie.CacheAll)  # 缓存所有帧
