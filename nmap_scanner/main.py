@@ -9,7 +9,7 @@ class NmapScanner(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Nmap扫描器")
-        self.setGeometry(700, 800, 1000, 1000)  # 设置窗口大小和位置:
+        self.setGeometry(800, 200, 1000, 1000)  # 设置窗口大小和位置:
         self.setWindowIcon(QIcon("resources/logo.ico"))  # 可选
         self.setStyleSheet("""
             QWidget {
@@ -81,8 +81,10 @@ class NmapScanner(QWidget):
         # 动态 loading 动画
         self.loading = QLabel()
         self.loading.setAlignment(Qt.AlignCenter)
-        self.loading_movie = QMovie("resources/loading.gif")
+        self.loading_movie = QMovie("resources/loading2.gif")
         self.loading.setMovie(self.loading_movie)
+        self.loading.setFixedSize(60, 60)  # 设置GIF动画的尺寸为60x60像素
+        self.loading_movie.setCacheMode(QMovie.CacheAll)  # 缓存所有帧
         self.loading.hide()  # 默认不显示
 
         # 输出框
