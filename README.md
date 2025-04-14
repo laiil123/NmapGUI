@@ -2,7 +2,8 @@
 
 一个基于 Python 和 PyQt5 的图形化网络扫描工具，具备 IP 段扫描、端口扫描、操作系统识别、服务识别、进度条、动画提示、多线程加速、导出结果等完整功能。
 
-![screenshot](screenshot.png) <!-- 你可以替换为实际截图路径 -->
+![![image](https://github.com/user-attachments/assets/5edd0740-151a-4afe-92a8-d51222275802)
+](screenshot.png) <!-- 你可以替换为实际截图路径 -->
 
 ---
 
